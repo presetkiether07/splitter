@@ -1,0 +1,35 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255,255,255,0.1);
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+input[type="file"] {
+  margin-top: 1em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 0.5em;
+  background: #00c6ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: #0072ff;
+}
