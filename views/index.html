@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎵 Instrument Splitter</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎶 Instrument Splitter Tool</h1>
+    <p>Upload your MP3 file and get separated instrument tracks (vocals, drums, bass, etc.).</p>
+
+    <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="audio" accept="audio/mpeg" required>
+      <button type="submit">🎧 Split Now</button>
+    </form>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
